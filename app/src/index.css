@@ -6,6 +6,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+	height: 10000px;
+}
 
 .banner {
 	background: radial-gradient(circle, rgba(0,72,87,1) 0%, rgba(6,6,56,1) 35%, rgba(2,0,36,1) 100%);
@@ -43,4 +46,8 @@ nav li:hover div {
 
 nav li:hover a {
 	color: rgb(8 145 178);
+}
+
+nav * {
+	transition: 0.3s;
 }
