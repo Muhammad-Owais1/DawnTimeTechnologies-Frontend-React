@@ -10,7 +10,7 @@ import UI7 from "../imgs/ui7.png";
 
 export default function HeroSection() {
   return (
-    <div id="home" className="pt-14 px-20 w-screen relative">
+    <div id="home" className="py-14 px-20 w-screen relative">
       <h1 className="font-['Poppins'] mb-10 font-bold text-[25px] sm:text-[40px] text-center px-0 sm:px-20">
         Come On. Don't Think Too Much. Get Your Solution. Get Your First Job.
       </h1>
@@ -108,7 +108,7 @@ export default function HeroSection() {
           "GET CODING TASKS.",
           "DO OUR MARKETING.",
         ].map((item, index) => (
-          <p className="font-black font-['Poppins'] ml-5" key={index}>
+          <p className="text-sm font-black font-['Poppins'] ml-5" key={index}>
             {item}
           </p>
         ))}
