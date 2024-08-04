@@ -40,7 +40,7 @@ export default function Header() {
 
   return (
     <>
-      <div className=" bg-slate-950 h-[86px] p-0 hidden sm:flex items-center justify-around flex-row gap-8  relative">
+      <div className=" bg-slate-950 h-[86px] w-screen p-0 hidden sm:flex items-center justify-around flex-row gap-8 overflow-x-hidden relative">
         <img className="w-[200px]" src={BannerLogo} alt="" />
         <div className="flex flex-col items-center justify-center">
           <h1 className="font-black text-white sm:text-[40px] text-lg font-['Roboto'] italic ">
@@ -58,7 +58,7 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="h-[73px]">
+      <div className="h-[73px] overflow-x-hidden">
         <nav
           className={` w-full flex items-center justify-around flex-col sm:flex-row bg-white  border-b-[1px] border-gray-200 {${
             navOpen ? "gap-0" : "gap-5"
@@ -81,7 +81,7 @@ export default function Header() {
             }  overflow-hidden `}
           >
             <ul className="flex items-center justify-center gap-4 flex-col sm:flex-row">
-              {["home", "about us", "portfolio", "services", "join us"].map(
+              {["home", "about us", "services", "portfolio", "join us"].map(
                 (item, index) => (
                   <li key={index}>
                     <a
@@ -108,7 +108,7 @@ export default function Header() {
         </nav>
       </div>
 
-      <div className=" bg-slate-950  h-auto  p-4 sm:hidden flex items-center justify-around flex-col  gap-8  relative -z-10">
+      <div className=" bg-slate-950  h-auto  p-4 sm:hidden flex items-center justify-around flex-col  gap-8  relative -z-10 overflow-x-hidden">
         <img className="w-[200px]" src={BannerLogo} alt="" />
         <div className="flex fle-col items-center justify-center">
           <h1 className="font-black text-white sm:text-[40px] text-lg font-['Roboto'] italic ">

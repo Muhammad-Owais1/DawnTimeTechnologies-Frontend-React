@@ -10,6 +10,10 @@ body {
 	height: 10000px;
 }
 
+#root {
+	overflow-x: hidden;
+}
+
 .banner {
 	background: radial-gradient(circle, rgba(0,72,87,1) 0%, rgba(6,6,56,1) 35%, rgba(2,0,36,1) 100%);
 }
@@ -78,3 +82,28 @@ nav * {
 		display: flex;
 	}
 }
+
+.bg-pattern {
+	background-image: url(./imgs/bgimg.avif);
+	background-size: 200px;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: rgb(9, 121, 121);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: rgb(9, 121, 121);
+  }  
