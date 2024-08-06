@@ -93,7 +93,7 @@ export default function HeroSection() {
           ].map((item, index) => (
             <p
               key={index}
-              className="ml-[150px] text-[80px] text-gray-100 font-black font-['Poppins']"
+              className="ml-[150px] text-[80px] text-gray-200 font-black font-['Poppins']"
             >
               {item}
             </p>

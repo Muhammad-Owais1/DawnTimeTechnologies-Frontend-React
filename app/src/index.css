@@ -83,10 +83,6 @@ nav * {
 	}
 }
 
-.bg-pattern {
-	background-image: url(./imgs/bgimg.avif);
-	background-size: 200px;
-}
 
 /* width */
 ::-webkit-scrollbar {
@@ -107,3 +103,26 @@ nav * {
   ::-webkit-scrollbar-thumb:hover {
 	background: rgb(9, 121, 121);
   }  
+
+  .plan {
+	flex: 0 0 90vw;
+  }
+
+  .card * {
+	transition: 0.3s;
+  }
+
+  .card:hover .card-hover {
+	height: 400px;
+	width: 400px;
+  } 
+
+  .card:hover button {
+	background: #000;
+	color: white;
+  }
+
+  .card:hover h3,
+  .card:hover p {
+	color: black;
+  }
