@@ -64,6 +64,18 @@ nav * {
 	width: 100%;
 }
 
+.rfm-marquee-container:nth-child(3) {
+	width: 100vw;
+}
+
+.rfm-marquee-container:nth-child(4) {
+	width: 100vw;
+}
+
+.rfm-marquee-container:nth-child(5) {
+	width: 100vw;
+}
+
 @media (max-width: 1230px) {
 	.hero-tile-y {
 		display: flex;
@@ -102,4 +114,4 @@ nav * {
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
 	background: rgb(9, 121, 121);
-  }  
+  }
