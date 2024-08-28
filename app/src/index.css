@@ -115,3 +115,22 @@ nav * {
   ::-webkit-scrollbar-thumb:hover {
 	background: rgb(9, 121, 121);
   }
+ 
+  
+
+.portfolio *{
+	cursor: pointer;
+	transition: 0.3s;
+	}
+
+
+.portfolio:hover .portfolio-txt{
+	background-color: white;
+}
+.portfolio:hover .portfolio-txt p{
+	color: black;
+}
+.portfolio:hover .portfolio-txt div{
+	border: 1px solid black;
+	width: 90px;
+}

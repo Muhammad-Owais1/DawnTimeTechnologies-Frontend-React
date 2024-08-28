@@ -5,6 +5,8 @@ import HeroSection from "./components/HeroSection";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ServicesSection from "./components/ServicesSection";
+import PortfolioSection from "./components/PortfolioSection";
+import Footer from "./components/Footer";
 
 function App() {
   useEffect(() => {
@@ -19,6 +21,8 @@ function App() {
       <HeroSection />
       <AboutUsSection />
       <ServicesSection />
+      <PortfolioSection />
+      <Footer />
     </>
   );
 }
